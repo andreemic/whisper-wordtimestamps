@@ -16,7 +16,6 @@ RUN pip3 install -r requirements.txt
 RUN pip install torch==1.13.1+cu117 torchaudio==0.13.1+cu117 -f https://download.pytorch.org/whl/cu117/torch_stable.html
 RUN pip install git+https://github.com/openai/whisper
 
-ADD utils.py .
 # Add your model weight files 
 # (in this case we have a python script)
 ADD download.py .
