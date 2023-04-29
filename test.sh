@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d '{"audio_url": "https://replicate.delivery/pbxt/IjgmsYJ6OtA4SV8SuHPlw4zBU1huV3i6EXgITu3H1lMtzoms/morelove_eqd.wav"}' http://localhost:8000/
